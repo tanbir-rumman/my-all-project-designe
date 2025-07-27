@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 31, 2);
+}
+
+
+.hover-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.hover-effect a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #551208;
+    padding: 10px;
+    background: #326275;
+    position: relative;
+    
+}
+
+.hover-effect a::before, a::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: greenyellow;
+    width: 0;
+    height: 5px;
+    transition: 0.3s;
+}
+
+.hover-effect a::before {
+    top: 0;
+    left: 0;
+    
+}
+
+.hover-effect a:hover::before {
+    width: 100%;
+
+}
+
+.hover-effect a::after {
+    bottom: 0;
+    right: 0;
+    
+}
+
+.hover-effect a:hover::after {
+    width: 100%;
+    height: 5px;
+    
+}
+
+span::before, span::after {
+    content: '';
+    display: block;
+    background: greenyellow;
+    position: absolute;
+    height: 0;
+    width: 5px;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+
+span::before {
+    left: 0;
+    bottom: 0;
+}
+
+span::after {
+    right: 0;
+    top: 0;
+}
+
+a:hover span::before {
+    height: 100%;
+}
+
+a:hover span::after {
+    height: 100%;
+}
