@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-area {
+    width: 100%;
+    background: #000000;
+    margin: auto;
+}
+
+.nav-area .phone-number {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+}
+
+.nav-area .meil-area {
+    text-align: right;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.nav-area a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-area i {
+    color: #ff8a1d;
+    font-weight: 800;
+}
+
+/*
+===========================================
+==============HEADER AREA END==============
+===========================================
+*/
+
+.mein-menu {
+    width: 100%;
+    background: #d1e3ff;
+}
+
+.mein-menu .brand-name {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.mein-menu .brand-name h2 a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: #0355cc;
+}
+
+.mein-menu .menu-area {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mein-menu .menu-area ul {
+    margin-right: 20px;
+}
+
+.mein-menu .menu-area ul li {
+    float: left;
+    padding: 25px;
+    list-style-type: none;
+}
+
+.mein-menu .menu-area ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.mein-menu>.menu-area>ul>li>a:hover {
+    color: #0355cc;
+}
+
+.body {
+    width: 100%;
+}
+
+.red {
+    margin-left: 20px;
+}
+
+.body .red {
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.body .red .heading-top {
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.body .red .heading-top h1 {
+    text-align: left;
+    font-size: 2.6rem;
+    color: #0355cc;
+}
+
+.body .red .pra-1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.body .red .pra-1 p {
+    text-align: left;
+    line-height: 1.5rem;
+    margin: 10px 100px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #494a4b;
+}
+
+.body .red .button a {
+    color: #fff;
+    text-decoration: none;
+    background: #ff8a1d;
+    padding: 10px 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: -100px;
+    border: 1px solid #ff8a1d;
+    border-radius: 5px;
+}
+
+.body .red .button a:hover {
+    background: #d1e3ff;
+    color: #ff8a1d;
+}
+
+.body .image {
+    width: 60%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.body .image img {
+    width: 65%;
+}
+
+/*
+=============================================
+        Repair and Maintenance Services
+=============================================
+*/
+
+.Repire-area {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    transform: translate(0px, -120px);
+
+}
+
+.Repire-area .box {
+    width: 33%;
+    background: #fff;
+    margin: auto;
+    padding: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 20px -7px black;
+    transition: 0.4s;
+
+}
+
+.Repire-area .boxone {
+    background: #ff8a1d;
+}
+
+.Repire-area .box i {
+    font-size: 100px;
+    color: #726daea6;
+}
+
+.Repire-area .box p {
+    color: #726dae;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+.Repire-area .box:hover {
+    background: #ff8a1d;
+}
+
+.Repire-area .box:hover i {
+    color: #fff;
+}
+
+.Repire-area .box:hover p {
+    color: #fff;
+}
+
+.Repire-area .boxone:hover i {
+    color: #726dae;
+}
+
+.Repire-area .boxone:hover p {
+    color: #726dae;
+}
+
+/*
+==================================
+Repair and Maintenance Services end-
+==================================
+
+*/
+
+/*
+========================================
+ ==========About-area START=============
+========================================
+
+*/
+
+.About-area {
+    width: 80%;
+    margin: auto;
+}
+
+.about-us {
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+
+.about-us .heading-2 h1 {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.about-us .para2 {
+    width: 100%;
+}
+
+.about-us .para2 P {
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+
+.About-area .image-area {
+    width: 60%;
+    overflow: hidden;
+
+}
+
+.About-area .image-area img {
+    width: 95%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.about-us .reed-area a {
+    text-align: center;
+    border: 1px solid #0355cc;
+    background: #0355cc;
+    padding: 10px 40px;
+    font-size: 22px;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px 0px;
+    color: #fff;
+}
+
+.about-us .reed-area a:hover {
+    background: #fff;
+    color: #0355cc;
+}
+
+/*
+========================================
+ ==========ABOUT AREA END=============
+========================================
+
+*/
+
+.provide {
+    width: 100%;
+    min-height: 700px;
+    margin-top: 100px;
+    background: #d1e3ff;
+    padding: 50px;
+}
+
+.provide .Provide-area {
+    width: 95%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.provide .Provide-area .image {
+    width: 50%;
+    margin: auto;
+    margin-top: -100px;
+    float: left;
+    overflow: hidden;
+}
+
+.provide .Provide-area .image img {
+    width: 90%;
+}
+
+.provide .Provide-area .heading-para {
+    width: 50%;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+.provide .Provide-area .heading-para h1 {
+    color: #0355cc;
+    line-height: 2.8rem;
+}
+
+.provide .Provide-area .heading-para p {
+    margin-top: 20px;
+    line-height: 1.5rem;
+    color: #000000bd;
+}
+
+.provide .Provide-area>.button {
+    width: 19%;
+    margin-left: -100px;
+
+}
+
+.provide .Provide-area > .button > a {
+    text-decoration: none;
+    color: #fff;
+    background: #ff8a1d;
+    padding: 8px 35px;
+    line-height: 2rem;
+    border: 1px solid #ff8a1d;
+    font-size: 18px;
+}
+
+.provide .Provide-area .button a:hover {
+    background: #d1e3ff;
+    color: #ff8a1d;
+}
+
+
+/*
+==============================
+=======PROVIDE AREA END=======
+==============================
+*/
+
+.service-area {
+    width: 100%;
+    margin: auto;
+}
+
+.service-area .heading-4 {
+    margin: 150px 0px 100px;
+}
+
+.service-area .heading-4 h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.service-area .box-area {
+    margin: auto;
+    width: 80%;
+}
+
+.service-area .box-area .box {
+    width: 30%;
+    margin: auto;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 0px 0px 13px -8px #000;
+    border: 1px solid #00000024;
+    transition: 0.4s;
+}
+
+.service-area .box-area .box img {
+    width: 35%;
+    padding: 5px;
+    margin: auto;
+    color: #fff;
+}
+
+.service-area .box-area .box:hover {
+    background: #ff8a1d;
+    color: #fff;
+}
+
+.service-area .box-area .box p {
+    line-height: 1.5rem;
+}
+
+.button {
+    width: 20%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    transform: translate(0px, 50px);
+}
+
+.button>a {
+    display: inline-block;
+    background: #0355cc;
+    text-decoration: none;
+    padding: 15px 45px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #0355cc;
+
+}
+
+.button>a:hover {
+    background-color: #fff;
+    color: #0355cc;
+}
+
+/*
+==============================
+=======SERVICE AREA END=======
+==============================
+*/
+
+.all-clints { 
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.all-clints .Clients-area {
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5rem;
+    overflow: hidden;
+    
+}
+
+.Clients-area .heading-5 {
+    margin: auto;
+    margin-bottom: 100px;
+    color: #000;
+    text-align: center;
+}
+
+
+.Clients-area > .Clients-1 {
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 15px -6px black;
+    margin: auto;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.Clients-area>.Clients-1 .imageone {
+    width: 100%;
+
+}
+.Clients-area>.Clients-1 .imageone .img1 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.Clients-area>.Clients-1 .imageone .img1 img {
+    width: 70%;
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.Clients-area>.Clients-1 .imageone .name1 {
+    width: 50%;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.Clients-area>.Clients-1 .imageone .name1 p {
+    padding: 10px;
+    text-decoration: underline;
+    float: left;
+    margin-left: -20px;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.Clients-area .Clients-1 .paraone {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+}
+
+/*
+==========================================================
+=====================CLINTS AREA END======================
+==========================================================
+*/
+
+
+/*
+==========================================================
+==================FORM AND MAP AREA START=================
+==========================================================
+*/
+.contuct-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contuct-form .form {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+}
+
+.contuct-form .form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contuct-form .form h1 {
+    text-align: left;
+    display: block;
+}
+.contuct-form .form {
+    padding: 20px;
+}
+
+.contuct-form .form form input {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding:15px 20px;
+    margin: 30px 0;
+    color: #000;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 7px 1px #0000004d;
+    overflow: hidden;
+}
+
+.contuct-form .form form input::placeholder {
+    color: #0000007e;
+}
+
+.contuct-form .form form textarea {
+    box-shadow: 0px 0px 6px 0px #0000004d;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 7px 1px #0000004d;
+    display: block;
+    padding: 10px;
+}
+
+.contuct-form .form form textarea::placeholder {
+    color: #0000008e;
+    font-size: 18px;
+    line-height: 8rem
+}
+
+.google-map-area {
+    width: 45%;
+    overflow: hidden;
+    margin-top: 180px;
+}
+
+.contuct-form .form form input[type="submit"] {
+    width: 40%;
+    border: 1px solid #0355cc;
+    background: #0355cc;
+    color: #fff;
+    box-shadow: none ;
+}
+
+.contuct-form .form form input[type="submit"]:hover {
+    background: #fff;
+    color: #0355cc;
+}
+
+.google-map-area {
+    width: 45%;
+    overflow: hidden;
+    margin-top: 190px;
+}
+
+/*
+==========================================================
+===================FORM AND MAP AREA END==================
+==========================================================
+*/
+
+
+.bottom-area {
+    width: 100%;
+    background: #0a0f43;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+.bottom-area .heding-7 {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.bottom-area .locetion-area .locationf {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.bottom-area .locetion-area .locationf .locetion {
+    width: 30%;
+    float: left;
+}
+
+.bottom-area .locetion-area .locationf .contuct {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}    
+
+.bottom-area .locetion-area .locationf a {
+    width: 10%;
+    padding: 30px;
+    background: #0355cc;
+    border-radius: 200px;
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom-area .locetion-area .locationf a {
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.bottom-area .locetion-area .locationf a i{
+    margin-left: -8px;
+}
+
+.bottom-area .locetion-area .locationf a:hover {
+    background: #ff8a1d;
+}
+
+.bottom-area .locetion-area .locationf p {
+    padding: 20px;
+    overflow: hidden;
+}
+.bottom-area .locetion-area .locationf {
+    position: relative;
+}
+.bottom-area .locetion-area .locationf .locetion::after{
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    left: 22%;
+    top: 38%;
+    width: 20.50%;
+    height: 1.5px;
+    background: #fff;
+}
+.bottom-area .locetion-area {
+    position: relative;
+}
+
+.bottom-area .locetion-area .locationf::after {
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    left: 48.50%;
+    top: 38%;
+    width: 24%;
+    height: 1.5px;
+    background: #fff;
+}
+
+.bottom-area .social-link {
+    width: 100%;
+    padding: 70px;
+}
+.bottom-area hr {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+} 
+
+.bottom-area .coppyright {
+    padding: 30px;
+}

@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 702px) {
+    
+    .mein-menu .brand-name {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        float: none;
+    }
+    .nav-area .phone-number {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+    }
+    .nav-area .meil-area {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .mein-menu .menu-area {
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    .mein-menu .menu-area ul {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+    }
+
+    .mein-menu .menu-area ul li {
+        float: none;
+        padding:20px 5px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .body {
+        width: 100%;
+    }
+
+    .red {
+        display: block;
+        margin-left: 0;
+    }
+
+    .body .red {
+        width: 100%;
+        float: none;
+        text-align: justify;
+    }
+
+    .body .red .heading-top {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .body .red .heading-top h1 {
+        text-align: center;
+        font-size: 2.6rem;
+        color: #0355cc;
+    }
+
+    .body .red .pra-1 {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .body .red .pra-1 p {
+        text-align: justify;
+        line-height: 1.5rem;
+        margin: 0px 50px;
+        font-weight: 400;
+        color: #494a4b;
+    }
+    .body .red .button {
+        width: 50%;
+        height: 100px;
+        overflow: hidden;
+        margin-bottom: 50px ;
+    }
+
+    .body .red .button a {
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .body .image {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .body .image img {
+        width: 80%;
+    }
+
+    .Repire-area {
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+        transform: translate(0px, -120px);
+
+    }
+
+    .Repire-area {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .Repire-area .box {
+        width: 100%;
+        background: #fff;
+        margin: auto;
+        margin-top: 10px;
+        padding: 30px;
+        box-shadow: 0px 0px 20px -7px black;
+        overflow: hidden;
+        background: #ff8a1d;
+    }
+
+    .About-area {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .about-us {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+    }
+    .about-us .heading-2 h1 {
+        font-size: 32px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-us .para2 P {
+        line-height: 1.5rem;
+        padding: 10px;
+        text-align: justify;
+        overflow: hidden;
+    }
+
+    .About-area .image-area {
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .About-area .image-area img {
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    .provide {
+        width: 100%;
+        padding: 5px;
+        overflow: hidden;
+    }
+    .provide .Provide-area {
+        width: 100%;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .provide .Provide-area .image {
+        width: 50%;
+        margin: auto;
+        margin-top: -30px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .provide .Provide-area .image img {
+        width: 100%;
+    }
+
+    .provide .Provide-area .heading-para {
+        width: 50%;
+    }
+
+    .provide .Provide-area .heading-para h1 {
+        color: #0355cc;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .provide .Provide-area .heading-para p {
+        margin-top: 30px;
+        line-height: 1.5rem;
+        color: #000000bd;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .service-area .heading-4 {
+        margin: 50px 0px 100px;
+    }
+
+    .service-area .box-area {
+        width: 100%;
+        margin: auto;
+    }
+
+    .service-area .box-area .box {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        float: none;
+    }
+
+    .button {
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        text-align: center;
+        transform: translate(0px, 50px);
+    }
+
+    .all-clints {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .all-clints .Clients-area {
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0px;
+        text-align: center;
+        
+        padding: 5px;
+        line-height: 1.5rem;
+        overflow: hidden;
+
+    }
+
+    .Clients-area .heading-5 h1{
+        margin: auto;
+        color: #000;
+        line-height: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .Clients-area>.Clients-1 {
+        width: 95%;
+        float: left;
+        margin: auto;
+        margin-left: 5px;
+        margin-top: 30px;
+        box-shadow: 0px 0px 15px -6px black;
+        overflow: hidden;
+    }
+    
+    .contuct-form {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .contuct-form .form {
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+    }
+    .contuct-form .form {
+        margin-top: 50px;
+        
+    }
+    .contuct-form .form h1 {
+        text-align: center;
+        display: block;
+    }
+    .contuct-form .form {
+        padding: 10px;
+    }
+
+    .contuct-form .form form input {
+        display: block;
+        width: 100%;
+        padding:15px 20px;
+        margin: 30px 0;
+        color: #000;
+        outline: none;
+        border: none;
+        box-shadow: 0px 0px 7px 1px #0000004d;
+        overflow: hidden;
+    }
+    .contuct-form .form form textarea {
+        width: 100%;
+    }
+    .contuct-form .form form input[type="submit"] {
+        width: 40%;
+        border: 1px solid #0355cc;
+        background: #0355cc;
+        color: #fff;
+        margin: auto;
+        margin-top:20px;
+        box-shadow: none;
+    }
+
+    .google-map-area {
+        width: 95%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+
+    .bottom-area {
+        width: 100%;
+        background: #0a0f43;
+        color: #fff;
+        margin: auto;
+        text-align: center;
+    }
+    .bottom-area .locetion-area .locationf {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .bottom-area .locetion-area .locationf .locetion::after {
+        content: '';
+        clear: both;
+        display: block;
+        position: absolute;
+        left: 23%;
+        top: 30%;
+        width: 14%;
+        height: 1.5px;
+        background: #fff;
+    }
+
+    .bottom-area .locetion-area .locationf::after {
+        content: '';
+        clear: both;
+        display: block;
+        position: absolute;
+        left: 53%;
+        top: 30%;
+        width: 19%;
+    }
+    .bottom-area .locetion-area .locationf p {
+        padding: 00px;
+        overflow: hidden;
+    }
+
+
+}
+
+
