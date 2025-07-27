@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+/*
+==========================
+      NAV AREA START
+==========================
+*/
+.conteiner-first {
+    width: 100%;
+    margin: auto;
+}
+
+.conteiner {
+    position: relative;
+}
+
+.nav-area {
+    width: 95%;
+    max-width: 100%;
+    min-width: 95%;
+    background: linear-gradient(#6c5ce7a7, #0985e38b);
+    min-height: 50px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.nav-area .brand-logo {
+    width: 10%;
+    background: linear-gradient(#6c5ce7, #0984e3);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #fff;
+    
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+
+}
+
+.nav-area .image {
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.nav-area .image img {
+    width: 15%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/*
+==========================
+      NAV AREA END
+==========================
+*/
+.background-area {
+    width: 95%;
+    min-width: 95%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.conteiner > .background-area {
+    background:  linear-gradient(to right bottom, #6c5ce75e, #0985e33d),
+        url('image/mitting.jpg')no-repeat fixed center/cover;
+    min-width: 95%;
+    min-height: 600px;
+    z-index: -1;
+}
+
+.background-area > .link {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.background-area > .link >.logo {
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+}
+
+.background-area>.link>.logo img {
+    width: 50%;
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    float: left;
+}
+
+.link-area {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.link-area > a {
+    color: black;
+    padding: 10px;
+    text-decoration: none ;
+}
+
+.link-area > a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.link-area > a:active {
+    color: blue;
+}
+
+.meil-area {
+    height: 50px;
+    width: 10%;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.meil-area a{
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid rgba(24, 12, 12, 0.277);
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+
+.meil-area a:hover {
+    background: linear-gradient(to left top,#3498db, rgba(0, 0, 255, 0.326));
+    text-decoration: underline;
+    outline: none;
+}
+
+.sectoin > .text-area {
+    width: 25%;
+    text-align: left;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.button .one-button{
+    width: 15%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.button .one-button > a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid grey;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+}
+
+.button .one-button>a:hover {
+    background: #ffffff77;
+}
+
+.button .two-button {
+    width: 15%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+.button .two-button > a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid grey;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #000;
+    background: linear-gradient(to left top, #6c5ce78c, #0985e38a);
+}
+.button .two-button>a:hover {
+    background: linear-gradient(to left top, #6c5ce7f7, #0985e3);
+}
+
+
+
+/*
+==============================================================================
+BACKGROUND IMAGE AREA AND TOP LINK AND REED MORE OR CONTUCT US BUTTON AREA END
+==============================================================================
+*/
+
