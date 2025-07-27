@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-area {
+    max-width: 96%;
+    min-height: 800px;
+    background: linear-gradient( #80808079, #0000ff65, transparent), url('IMAGE/image(1).jpg')no-repeat 70% center/cover;
+    margin: auto;
+}
+
+.background-area > nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-area > nav > .icon {
+    width: 5%;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.background-area >nav > .icon > h1 {
+    transition: 0.5s;
+}
+
+
+.background-area >nav > .icon > h1:hover {
+    transform: rotate(180deg);
+}
+
+.background-area > nav > .icon > h1{
+    color: #2c3a47; 
+    font-size: 4rem;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+} 
+
+.background-area > nav > .link {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: center;
+} 
+
+.background-area > nav > .link > a {
+    float: right;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+    color: #ffffffab;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.background-area > nav > .link > a:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff89;
+}
+
+.background-area > section {
+    width: 20%;
+    min-height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.background-area > section > .heading {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.background-area > section > .para {
+    margin-left: 38px;
+    color: #132264;
+}
+
+.background-area > section > .para > a {
+    color: #ffffff95;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.background-area > section >.para > a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background: #ffffffd6;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.background-area > section > .para >a:hover {
+    color: #fff;
+}
+
+.background-area > section > .para > a:hover::after {
+    display: block;
+    height: 3px;
+    width: 15%;
+}
+
+.wright-area {
+    width: 100%;
+    min-height: 300px;
+}
+
+.wright-area > .heading-p {
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.131) transparent;
+}
+.wright-area>.heading-p > h1 {
+    color: #fff;
+} 
+
+.wright-area > .heading-p > a {
+    color: #3a1f68da;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #ffffffb8;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.wright-area>.heading-p > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.wright-area>.heading-p > a:hover {
+    color: #ffffff;
+}
+
+.wright-area>.heading-p>a:hover::after  {
+    width: 15%;
+    height: 3px;
+    margin: auto;
+}
+
+.wright-area > .heading-p > .para-two > p {
+    color: #ffffffa1;
+    font-size: 14px;
+}
+
+/*
+=============================
+=======IMAGE AREA STAR=======
+=============================
+
+*/
+
+
+.middle-area {
+    width: 96%;
+    min-height: 700px;
+    margin: auto;
+    background: #2c3a47ee;
+}
+
+.middle-area > .aricle-area {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.middle-area>.aricle-area > h1 {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.middle-area>.aricle-area > a {
+    color: #ffffff94;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.middle-area>.aricle-area > a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: #ffffff94;
+    transition: 0.5s;
+}
+
+.middle-area>.aricle-area>a:hover::after  {
+    width: 22%;
+    height: 5px;
+    margin-left: 72px;
+}
+
+.middle-area>.aricle-area>a:hover {
+    color: #fff;
+}
+
+.middle-area > .image-area{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.middle-area > .image-area > .w-30 {
+    width: 31%;
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 16px 0px #164a7a;
+    transition: 1s;
+}
+
+
+.middle-area>.image-area>.w-30 > img {
+    width: 100%;
+    margin: auto;
+    min-height: 400px;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+}
+.middle-area>.image-area>.w-30:hover {
+    box-shadow: 0px 5px 16px 0px #092036;
+}
+
+.middle-area>.image-area > .w-30 > img:hover {
+    transform: scale(1.5);
+    
+}
+/*
+=============================
+=======IMAGE AREA END========
+=============================
+
+*/
+
+
+.bottom {
+    width: 96%;
+    min-width: 96%;
+    min-height: 400px;
+    background: #2c3a47;
+    margin: auto;
+}
+
+.bottom > .subscribe{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.bottom > .subscribe > h1 {
+    color: #fff;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.bottom >.subscribe > p {
+    color: #ffffff74;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.bottom > .signup {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.bottom > .signup > form > input[type="meil"] {
+    padding: 5px;
+    width: 50%;
+    font-size: 22px;
+    background: #8080804c;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+
+::placeholder {
+    color: #ffffff45;
+}
+
+.bottom>.signup>form>input[type="meil"]:hover {
+    background: #808080b2;
+    transform: scale(1.1);
+    border-radius: 20px;
+    border: 2px solid #ffffffaa;
+}
+
+.bottom>.signup>form>input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background: #8080804c;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.bottom > .signup > form > input[type="submit"]:hover {
+    background: #808080bc;
+}
+
+.link-2 {
+    width: 96%;
+    min-height: 100px;
+    background: #3a4753;
+    margin: auto;
+}
+
+.link-2 > .logo-2 {
+    margin-left: 30px;
+    transition: 0.5s;
+
+}
+
+.link-2 > .logo-2 h1 {
+    color: #FFF;
+    font-size: 4rem;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.link-2 > .logo-2 > h1:hover {
+    transform: rotate(180deg);
+}
+
+
+.link-2 >.last-link {
+    width: 95%;
+}
+
+.link-2>.last-link > a {
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    color: #ffffff93;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.link-2>.last-link>a:hover {
+    color: #000;
+    border: 3px solid #ffffff93;
+}
