@@ -1,0 +1,10 @@
+20 - Hight , Width কি হয়? 
+
+উত্তরঃ css এ প্রতিটি elemnt ই একটা  hight width নিয়ে থাকে, 
+আর আমরা চাইলে এই elemnt এ আমাদের মত করে নির্দিষ্ট আকারে একটা hight width দিতে পারি, 
+
+যেমন 
+h1 {
+     hight: 500px;
+     width: 500px;
+}

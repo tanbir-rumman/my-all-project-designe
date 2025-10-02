@@ -1,0 +1,6 @@
+class 19 collapsing in css
+
+collapsing কি হয় ? 
+
+উত্তরঃ  css এ যখন উপরে এবং নিচে থাকা দুটি element থাকে সেখানে যধি margin দেয়া হয় তখন যে element এ 
+margin বেশি থাকে সেটি দুইটি element এর ফাকা অংসটুকু নিজের মধ্যে নিয়ে নেয় , আর এটিই হলো  collapsing  
