@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #fffaf4;
+    height: 100%;
+}
+
+.content {
+    width: 95%;
+    margin: auto;
+}
+
+.content .navArea {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.content nav a{
+    padding: 20px;
+    font-size: 22px;
+    flex-basis: 9%;
+    text-decoration: none;
+    color: #4e4c4c;
+}
+
+.content nav a:hover {
+    text-decoration: underline;
+}
+
+.content-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content-area .leftImage {
+    width: 40%;
+}
+
+.content-area .leftImage img {
+    width: 90%;
+}
+
+.content-area .rigthContent {
+    margin-top: 60px;
+    width: 60%;
+}
+
+.content-area .rigthContent .heading-area h2 {
+    font-size: 85px;
+    color: #db5783;
+}
+
+.content-area .rigthContent .heading-area h2:nth-of-type(1) {
+    font-size: 85px;
+    float: left;
+    margin-right: 50px;
+    color: #4e4c4c;
+}
+
+.content-area .rigthContent .heading-area img {
+    width: 20%;
+    margin-left: 100px;
+}
+
+
+.rigthContent .intro-area {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 90%;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+#btn1 {
+    font-size: 22px;
+    background: #575757;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#btn2 {
+    font-size: 30px;
+    background: #575757;
+    color: #fff;
+    padding: 5px 16px;
+    border-radius: 50px;
+    background: #db5783;
+}
+
+.rigthContent .socilMedia {
+    margin-top: 40px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.rigthContent .socilMedia a {
+    color: #575757;
+    margin-left: 30px;
+}
