@@ -1,0 +1,878 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0a0a0a;
+	--accent: #ff3366;
+	--accent-hover: #ff1149;
+	--text-light: #ffffff;
+	--text-muted: #999;
+	--bg-dark: #000;
+	--bg-section: #0a0a0a;
+}
+
+/* -------------- nav bar area -------------- */
+
+body {
+    background: #000;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background: #0000;
+}
+
+.container .itemContainer {
+    width: 90%;
+    margin: auto;
+    background-image: linear-gradient(to left , #000, #181302, #000, #041e25, #000 ); */
+}
+
+.container nav {
+    background: #000;
+    
+}
+
+.container .navBar{
+    display: flex;
+    justify-content: space-between;
+    background:  #000000;
+    
+}
+
+.container .navBar .brandung_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container .navBar .brandung_logo h2 {
+    color: var(--accent);
+    padding: 5px;
+    font-size: 32px;
+}
+
+.container .navBar menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .navBar menu ul {
+    display: flex;
+}
+
+.container .navBar menu ul li {
+    padding-right: 30px;
+}
+
+.container .navBar menu ul li a{
+    color: var(--text-muted);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    letter-spacing: 0.2cap;
+}
+
+.container .navBar menu ul li a .HOME {
+    color: var(--text-light);
+}
+
+
+.container .navBar menu a:hover {
+    background: var(--accent-hover);
+    color: var(--text-light);
+}
+
+.container .navBar .getInToucs a{
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.2cap;
+}
+
+.container .navBar .getInToucs {
+    background: var(--accent);
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+/* ! NAV BAR AREA END */
+
+
+/* !RIGHT SIDE AREA STAR */
+
+.topBanner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.topBanner .leftArea .RedefineArea .newCollectionArea p{
+    padding: 5px 7px;
+    width: 45%;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--accent);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid var(--accent);
+    font-size: 14px;
+    letter-spacing: 0.2cap;
+}
+
+.topBanner .leftArea .RedefineArea .RedefineHeading {
+    color: var(--text-light);
+    font-size: 45px;
+    font-family: 'Arial', sans-serif;
+    line-height: 2.7cap;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.topBanner .leftArea .RedefineArea .RedefineHeading span {
+    color: var(--accent);
+    font-style: italic;
+    font-weight: 600;
+}
+
+.topBanner .leftArea .RedefineArea .discover {
+    color: var(--text-muted);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 2cap;
+}
+
+.topBanner .leftArea .exclusive-area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topBanner .leftArea .exclusive-area {
+    margin-top: 50px;
+    
+}
+
+.topBanner .leftArea .exclusive-area .Exclusive h2, .Delivery h2, .Sustainable h2{
+    color: var(--accent);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topBanner .leftArea .exclusive-area .Exclusive p, .Delivery p, .Sustainable p {
+    color: var(--text-muted);
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topBanner .leftArea .explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.topBanner .leftArea .explore .Collection {
+    background: var(--accent);
+    color: var(--accent);
+    padding: 15px 35px;
+    transition: 0.3s;
+}
+
+.topBanner .leftArea .explore .Collection:hover {
+    background: #f3144c;
+    transform: scale(1.05);
+}
+
+.topBanner .leftArea .explore .Collection a {
+    color: var(--text-light);
+    text-decoration: none;
+    letter-spacing: 0.2cap;
+}
+
+.topBanner .leftArea .explore a:nth-child(2) {
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-light);
+    letter-spacing: 0.2cap;
+    border: 1px solid var(--text-muted);
+    padding: 15px 35px;
+    transition: 0.3s;
+}
+
+.topBanner .leftArea .explore a:nth-child(2):hover {
+    background: #80808041;
+    transform: scale(1.05);
+}
+
+
+/* ! TOP BANNER LEFT AREA END */
+
+/* ! RIGHT EMAGE AEREA */
+
+.topBanner .rightImage-area {
+    display: flex;
+    padding: 20px;
+}
+
+.topBanner .rightImage-area img{
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.topBanner .rightImage-area img:hover {
+    transform: scale(1.1);
+}   
+
+
+/* ! RIGHT EMAGE AEREA END*/
+
+/* ! MIDDLE TEXT AREA */
+
+.middle-text .Collections-heading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.middle-text .Collections-heading h2 {
+    color: var(--text-light);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle-text .Collections-heading p {
+    color: var(--text-muted);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3cap;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.middle-text .Accessories {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.middle-text .Accessories a {
+    padding: 10px 20px;
+    border: 1px solid var(--text-muted);
+    margin-left: 20px;
+    letter-spacing: 0.2cap;
+    text-decoration: none;
+    color: var(--text-muted);
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle-text .Accessories a:hover {
+    background: var(--accent);
+    border: 1px solid var(--accent);
+    color: var(--text-light);
+}
+
+
+/* ! MIDDLE TEXT END */ 
+
+.card-area .image-collection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+}
+
+.card-area .image-collection .card {
+    flex-basis: 30%;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+.card-area .image-collection .card .one-image {
+    overflow: hidden;
+}
+
+
+.card-area .image-collection .card img {
+    height: 300px;
+    width: 100%;
+    transition: 0.3s;
+    overflow: hidden;
+    
+}
+
+.card-area .image-collection .card:hover {
+    box-shadow: 0px 0px 20px 1px red;
+    overflow: hidden;
+}
+
+.card-area .image-collection .card:hover img {
+    transform: scale(1.03);
+}
+
+.card-area .image-collection .card .discript {
+    overflow: hidden;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.card-area .image-collection .card .discript a {
+    padding: 0px 15px;
+    background: var(--accent);
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.card-area .image-collection .card .discript h3 {
+    font-size: 22px;
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.card-area .image-collection .card .discript :nth-child(3){
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-area .image-collection .card .discript :nth-child(4) {
+    color: var(--accent);
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+/* ! CARD AREA END */
+
+
+.Art-of-Fashion {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.Art-of-Fashion .left-area {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.Art-of-Fashion .left-area .Passion {
+    color: var(--accent);
+    letter-spacing: 0.2cap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+
+.Art-of-Fashion .left-area .Crafted-heding h2{
+    color: var(--text-light);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+
+.Art-of-Fashion .left-area .Crafted-heding p {
+    color: var(--text-muted);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Art-of-Fashion .left-area .left-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.Art-of-Fashion .left-area .left-card .One {
+    flex-basis: 30%;
+    text-align: center;
+    background: #80808031;
+    margin-left: 30px;
+    line-height: 1.8cap;
+    height: 250px;
+    padding: 20px;
+    transition: 0.3s;
+    border: 1px solid #80808031;
+    overflow: hidden;
+}
+
+.Art-of-Fashion .left-area .left-card .One h3 {
+    color: var(--text-light);
+}
+
+.Art-of-Fashion .left-area .left-card .One p {
+    color: grey;
+}
+
+.Art-of-Fashion .left-area .left-card .One:hover {
+    margin-top: -15px;
+    border: 2px solid var(--accent);
+}
+
+
+.Art-of-Fashion .left-area .left-card .One .higlight-icon p{
+    margin: auto;
+    font-size: 25px;
+    padding: 15px 10px;
+    background: var(--accent);
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+/* !RIGHT IMAGE AREA STAR */
+.Art-of-Fashion .right-image {
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Art-of-Fashion .right-image img {
+    width: 70%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.Art-of-Fashion .right-image img:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+/*! CARD AREA END */
+
+.higlight {
+    margin-top: 50px;
+}
+
+.higlight a{
+    background-color: var(--accent);
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.2cap;
+}
+
+.higlight a:hover {
+    background: var(--accent-hover);
+    box-shadow: 0px 7px 15px -2px var(--accent-hover);
+
+}
+
+
+/* ! CUSTOMER REVIW  */
+
+.Customers-Say {
+    margin-top: 150px;
+    
+}
+
+.Customers-Say .cutomar-reviw {
+    text-align: center;
+
+}
+
+.Customers-Say .cutomar-reviw h3 {
+    color: var(--text-light);
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Customers-Say .cutomar-reviw p {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 0.1cap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.Customers-Say .reviw-area {
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.Customers-Say .reviw-area  .comment {
+    background: #99999924;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-light);
+    padding: 20px;
+    line-height: 2.5cap;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
+.Customers-Say .reviw-area .comment:hover {
+    background: #45454599;
+    box-shadow: 0px 10px 15px 3px var(--accent-hover);
+}
+
+.Customers-Say .reviw-area .comment .star {
+    text-align: right;
+    color: var(--accent);
+    margin-top: 10px;
+    padding: 5px 35px;
+    font-size: 14px;
+}
+
+.Customers-Say .reviw-area .comment p q{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.Customers-Say .reviw-area .customerName {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+.Customers-Say .reviw-area {
+    margin-top: -15px;
+}
+
+
+.Customers-Say .reviw-area .customerName .l {
+    background:  var(--accent);
+    padding: 10px 20px;
+    border-radius: 5cap;
+    margin-right: 10px;
+}
+
+
+.customerName .c-name h3{
+    color: var(--text-light);
+    line-height: 1cap;
+    font-size: 18px;
+}
+
+.customerName .c-name p {
+    color: var(--text-muted);
+    font-size: 16px;
+}
+
+
+/*! CUSTOMER REVIW AREA END */
+
+/* ! GET IN TOUCH AREA START */
+
+.GetInTouch {
+    margin-top: 200px;
+}
+
+.touchHeading {form
+    text-align: center;
+}
+
+.touchHeading h2 {
+    color: var(--text-light);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.touchHeading p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3cap;
+}
+
+.GetInTouch .Introduction-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.GetInTouch .Introduction-section .form-area  {
+    background-image: linear-gradient(#80808028, #6e1e1e38);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.GetInTouch .Introduction-section .form-area form .name {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.GetInTouch .Introduction-section .form-area form .name .formControl label {
+    margin-left: 13px;
+}
+
+.GetInTouch .Introduction-section .form-area form .formControl input {
+    width: 90%;
+    padding: 15px 25px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    background: #8080804d;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.GetInTouch .Introduction-section .form-area form input:focus {
+    border: 2px solid var(--accent-hover);
+}
+
+.GetInTouch .Introduction-section .form-area form textarea {
+    display: block;
+    width: 90%;
+    padding: 15px 25px;
+    height: 100px;
+    margin: auto;
+    background: #8080804d;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.GetInTouch .Introduction-section .form-area form textarea:focus {
+    border: 2px solid var(--accent-hover);
+}
+
+.GetInTouch .Introduction-section .form-area form label {
+    margin: 7px 0px;
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 22px;
+    display: block;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+
+form button {
+    width: 90%;
+    display: block;
+    color: var(--text-light);
+    margin: 20px auto;
+    padding: 15px;
+    background: var(--accent);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3cap;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #ff1149;
+    box-shadow: 0px 3px 10px 1px #ff1149;
+}
+
+
+/*! FORM AREA END */
+
+/*! CONTACT AREA START */
+
+.contact-info {
+    background-image: linear-gradient(#80808028, #6e1e1e38);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.Info1 {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    transition: 0.3s;
+    flex-basis: 99%;
+}
+
+.Info1:hover {
+    margin-left: 10px;
+    background: #ff00001f;
+    transform: scale(1.05);
+}
+
+.contact-info .icon p{
+    background: var(--accent);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px 15px;
+    text-align: center;
+    margin-right: 20px
+}
+
+.contact-info h3 {
+    color: var(--text-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.contact-info .para p {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2cap;
+    font-size: 18px;
+}
+
+.contact-info .para p a {
+    color: var(--accent);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/*! CONTACT INFO AREA END */
+
+/*! MAP AREA START */
+.map-area iframe{
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*!MAP AREA END */
+
+hr {
+    outline: none;
+    margin-top: 100px;
+    height: 0.1px;
+    background: grey;
+}
+
+
+footer {
+    margin-top: 100px;
+}
+
+.footerLink {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerLink .footer-brand .brandName{
+    color: var(--text-light);
+    font-size: 22px;
+}
+
+.footerLink .footer-brand p {
+    color: grey;
+    line-height: 2cap;
+    margin-top: 20px;
+
+}
+
+.footerLink .footer-brand .footerCocail {
+    margin-top: 30px;
+}
+
+.footerLink .footer-brand .footerCocail a{
+    padding: 10px 17px;
+    border: 1px solid grey;
+    margin: 0px 10px;
+    border-radius: 6cap;
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-column {
+    line-height: 3cap;
+}
+
+.footer-column h3 {
+    color: var(--text-light);
+    letter-spacing: 0.3cap;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer-column ul li {
+    list-style-type: none;
+}
+
+.footer-column ul li a  {
+    text-decoration: none;
+    color: grey;
+}
+
+/*! FOOTER AREA END */
+
+.lastFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lastFooter p   {
+    padding: 20px 0px;
+    font-size: 14px;
+    color: grey;
+}
+
+.lastFooter a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.lastFooter .peyment-method {
+    display: flex;
+
+}
+
+
+.lastFooter .peyment-method p {
+    padding: 5px 10px;
+    font-size: 12px;
+    background: #80808090;
+    margin: 10px
+}
+
