@@ -809,6 +809,7 @@ footer {
 
 .footerLink .footer-brand .footerCocail {
     margin-top: 30px;
+    
 }
 
 .footerLink .footer-brand .footerCocail a{
@@ -819,7 +820,14 @@ footer {
     text-decoration: none;
     color: grey;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+.footerCocail a:hover {
+    background: var(--accent-hover);
+    color: var(#fff);
 }
 
 .footer-column {
@@ -840,6 +848,12 @@ footer {
 .footer-column ul li a  {
     text-decoration: none;
     color: grey;
+    transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: var(--accent-hover);
+    margin-left: 5px;
 }
 
 /*! FOOTER AREA END */
