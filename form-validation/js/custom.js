@@ -136,7 +136,7 @@ function selecLanguage() {
 addBtn.addEventListener("click", (e) => {
     e.preventDefault();
     if (WirteTex.value === "") {
-        alert("Text Somthin");
+        alert("Text Somthing");
     }
 
     let option = new Option(WirteTex.value);
@@ -179,3 +179,4 @@ remove.addEventListener("click", (e) => {
         }
     }
 });
+
