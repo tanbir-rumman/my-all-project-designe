@@ -137,6 +137,7 @@ addBtn.addEventListener("click", (e) => {
     e.preventDefault();
     if (WirteTex.value === "") {
         alert("Text Somthing");
+        return
     }
 
     let option = new Option(WirteTex.value);
@@ -179,4 +180,5 @@ remove.addEventListener("click", (e) => {
         }
     }
 });
+
 
