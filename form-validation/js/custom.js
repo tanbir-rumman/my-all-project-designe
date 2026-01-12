@@ -47,9 +47,9 @@ function checkInputValid(inputArray) {
 
 // CHECK LENGTH
 function checkLength(input, min, max) {
-    if (input.value < min) {
+    if (input.value.length < min) {
         errorSHow(input, `${fieldName(input)} less then min ${min} Carecter`);
-    } else if (input.value > min) {
+    } else if (input.value.length > max) {
         errorSHow(input, `${fieldName(input)} less then max ${max} Carecter`);
     } else {
         successShow(input);
