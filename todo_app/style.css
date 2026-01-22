@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todoarea {
+    width: 40%;
+    background: #ffe2b8d0;
+    margin: 50px auto;
+    text-align: center;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.show-text {
+    visibility: hidden;
+}
+
+.show-text.show {
+    visibility: visible;
+    color: red;
+}
+
+.input-area #input {
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.input-area button {
+    font-size: 20px;
+    padding: 10px 5px;
+    background: #ffae00;
+}
+
+.input-area button:hover {
+    background: #a77200;
+}
+
+.list-area {
+    width: 50%;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 22px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#orderLists li{
+    list-style: decimal;
+    overflow-wrap: break-word;
+    transition: 0.3s;
+    font-weight: 600;
+    padding: 5px;
+    text-transform: capitalize;
+    border-bottom: 1px solid red;
+}
+
+li:hover {
+    background: gray;
+    color: red;
+}
